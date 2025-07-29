@@ -1,0 +1,77 @@
+/* phone */
+
+/* @media (max-width: 480px) { */
+@media (max-width: 380px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .game {
+        width: 90vmin;
+        height: 90vmin;
+        gap: 2vmin;
+    }
+    .container{
+        height: 65vh;
+        padding: 0px;
+        margin: 5vmin;
+    }
+
+    .box {
+        height: 28vmin;
+        width: 28vmin;
+        font-size: 13vmin;
+    }
+
+    #reset,
+    #newBtn {
+        font-size: 0.9rem;
+        margin: 3vmin;
+    }
+
+    .winner_msg {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* tablet */
+
+/* @media (min-width: 481px) and (max-width: 768px) { */
+@media (min-width: 381px) and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .game {
+        width: 65vmin;
+        height: 65vmin;
+        gap: 1vmin;
+        padding: 0px;
+        margin: 5vmin;
+    }
+    .container{
+        height: 65vh;
+        padding: 0px;
+        margin: 5vmin;
+    }
+
+    .box {
+        height: 20vmin;
+        width: 20vmin;
+        font-size: 12vmin;
+    }
+
+    #reset,
+    #newBtn {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        margin: 3vmin;
+    }
+
+    .winner_msg {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+}
+
