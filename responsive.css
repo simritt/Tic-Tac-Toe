@@ -1,6 +1,5 @@
 /* phone */
 
-/* @media (max-width: 480px) { */
 @media (max-width: 380px) {
     h1 {
         font-size: 2rem;
@@ -37,7 +36,6 @@
 
 /* tablet */
 
-/* @media (min-width: 481px) and (max-width: 768px) { */
 @media (min-width: 381px) and (max-width: 768px) {
     h1 {
         font-size: 3rem;
